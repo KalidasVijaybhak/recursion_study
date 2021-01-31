@@ -9,13 +9,16 @@ class Main{
 public static int Fact(int x){
     
 
-    if(x == 1){
-        return 1;
-    }
-    else{
+//     if(x == 1){
+//         return 1;
+//     }
+//     else{
         
         
-        return x*Fact(x-1);
-    }
+//         return x*Fact(x-1);
+//     }
+    
+    
+    return (x==1)?1:x*Fact(x-1);
 }    
 }
