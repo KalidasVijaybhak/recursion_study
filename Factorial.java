@@ -19,6 +19,6 @@ public static int Fact(int x){
 //     }
     
     
-    return (x==1)?1:x*Fact(x-1);
+    return (x==0)?1:x*Fact(x-1);
 }    
 }
